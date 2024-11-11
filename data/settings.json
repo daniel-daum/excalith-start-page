@@ -1,10 +1,10 @@
 {
-	"username": "Excalith",
+	"username": "maliciouspickle",
 	"theme": {
 		"name": "Default",
 		"backgroundColor": "#121317",
 		"windowColor": "#1e212b",
-		"textColor": "#e2e2e2",
+		"textColor": "#c4c4c4",
 		"black": "#16161e",
 		"red": "#ec6183",
 		"green": "#2ed8a2",
@@ -16,7 +16,7 @@
 		"gray": "#97989d"
 	},
 	"wallpaper": {
-		"url": "assets/default-wallpaper.svg",
+		"url": "assets/utah.jpg",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
@@ -109,35 +109,35 @@
 	"sections": {
 		"list": [
 			{
-				"title": "General",
+				"title": "Go",
 				"color": "green",
 				"align": "left",
 				"links": [
 					{
-						"name": "Portfolio",
-						"url": "https://cancellek.com",
-						"icon": "mdi:web"
+						"name": "Go Docs",
+						"url": "https://pkg.go.dev/std",
+						"icon": "grommet-icons:golang"
 					},
 					{
-						"name": "Keybase",
-						"url": "https://keybase.io/",
+						"name": "Alex Edwards",
+						"url": "https://www.alexedwards.net/blog",
 						"icon": "fa-brands:keybase"
 					},
 					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/",
-						"icon": "simple-icons:openai"
+						"name": "GoByExample",
+						"url": "https://gobyexample.com",
+						"icon": "ph:brackets-curly-light"
 					},
 					{
-						"name": "OCI",
-						"url": "https://www.oracle.com/cloud/",
-						"icon": "simple-icons:oracle"
+						"name": "Learn Go With Tests",
+						"url": "https://quii.gitbook.io/learn-go-with-tests",
+						"icon": "tabler:hand-rock"
 					}
 				]
 			},
 			{
 				"title": "Dev",
-				"color": "magenta",
+				"color": "red",
 				"align": "left",
 				"links": [
 					{
@@ -146,19 +146,19 @@
 						"icon": "mdi:github"
 					},
 					{
-						"name": "GitLab",
-						"url": "https://gitlab.com",
-						"icon": "ph:gitlab-logo-simple-fill"
+						"name": "Digital Ocean",
+						"url": "https://www.digitalocean.com",
+						"icon": "gg:digitalocean"
 					},
 					{
-						"name": "Dev.to",
-						"url": "https://dev.to",
-						"icon": "material-symbols:logo-dev"
+						"name": "Tailscale",
+						"url": "https://tailscale.com",
+						"icon": "simple-icons:tailscale"
 					},
 					{
-						"name": "Stack Overflow",
-						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
+						"name": "Linear",
+						"url": "https://linear.app/",
+						"icon": "mdi:jira"
 					}
 				]
 			},
@@ -168,14 +168,9 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Twitter",
-						"url": "https://twitter.com",
-						"icon": "mdi:twitter"
-					},
-					{
-						"name": "Mastodon",
-						"url": "https://mastodon.social/",
-						"icon": "ri:mastodon-fill"
+						"name": "Threads",
+						"url": "https://threads.net",
+						"icon": "hugeicons:threads"
 					},
 					{
 						"name": "Reddit",
@@ -183,90 +178,95 @@
 						"icon": "mdi:reddit"
 					},
 					{
-						"name": "Polywork",
-						"url": "https://polywork.com",
+						"name": "Roll20",
+						"url": "https://roll20.net",
+						"icon": "simple-icons:roll20"
+					},
+					{
+						"name": "Personal",
+						"url": "https://daniel-daum.com",
 						"icon": "simple-icons:polywork"
 					}
 				]
 			},
 			{
-				"title": "Gaming",
-				"color": "red",
+				"title": "Misc",
+				"color": "magenta",
 				"align": "left",
 				"links": [
 					{
-						"name": "Polygon",
-						"url": "https://polygon.com",
-						"icon": "uil:polygon"
+						"name": "Filen",
+						"url": "https://filen.io",
+						"icon": "mdi:dropbox"
 					},
 					{
-						"name": "IGN",
-						"url": "https://ign.com",
-						"icon": "mdi:currency-sign"
+						"name": "Bitwarden",
+						"url": "https://bitwarden.com",
+						"icon": "simple-icons:bitwarden"
 					},
 					{
-						"name": "RPS",
-						"url": "https://rockpapershotgun.com/",
-						"icon": "ph:toilet-paper-bold"
+						"name": "Google Maps",
+						"url": "https://www.google.com/maps",
+						"icon": "simple-icons:googlemaps"
 					},
 					{
-						"name": "80lv",
-						"url": "https://80.lv/",
-						"icon": "tabler:hand-rock"
+						"name": "Localhost",
+						"url": "http://localhost:3000/",
+						"icon": "mdi:docker"
 					}
 				]
 			},
 			{
-				"title": "Science",
+				"title": "News",
 				"color": "blue",
 				"align": "left",
 				"links": [
 					{
-						"name": "PopSci",
-						"url": "https://popsci.com/",
-						"icon": "material-symbols:science"
+						"name": "New York Times",
+						"url": "https://www.nytimes.com",
+						"icon": "simple-icons:newyorktimes"
 					},
 					{
-						"name": "Space",
-						"url": "fa6-solid:user-astronaut",
-						"icon": "mdi:reddit"
+						"name": "The Verge",
+						"url": "https://www.theverge.com",
+						"icon": "ri:unsplash-fill"
 					},
 					{
-						"name": "NASA",
-						"url": "https://blogs.nasa.gov/",
-						"icon": "simple-icons:nasa"
+						"name": "Semafor",
+						"url": "https://www.semafor.com",
+						"icon": "ion:logo-designernews"
 					},
 					{
-						"name": "ESA",
-						"url": "https://blogs.esa.int/",
-						"icon": "mdi:black-mesa"
+						"name": "Hacker News",
+						"url": "https://news.ycombinator.com",
+						"icon": "icomoon-free:hackernews"
 					}
 				]
 			},
 			{
-				"title": "Tech",
+				"title": "Streaming",
 				"color": "yellow",
 				"align": "left",
 				"links": [
 					{
-						"name": "TechCrunch",
-						"url": "https://techcrunch.com/",
-						"icon": "game-icons:techno-heart"
+						"name": "Netflix",
+						"url": "https://netflix.com/",
+						"icon": "mdi:netflix"
 					},
 					{
-						"name": "Verge",
-						"url": "https://www.theverge.com/",
-						"icon": "arcticons:verge"
+						"name": "Hulu",
+						"url": "https://www.hulu.com/",
+						"icon": "mdi:hulu"
 					},
 					{
-						"name": "It's Foss",
-						"url": "https://itsfoss.com/",
-						"icon": "ri:mastodon-fill"
+						"name": "Youtube",
+						"url": "https://youtube.com/",
+						"icon": "mdi:youtube"
 					},
 					{
-						"name": "9To5 Linux",
-						"url": "https://9to5linux.com/",
-						"icon": "uil:linux"
+						"name": "HBO",
+						"url": "https://hbo.com/",
+						"icon": "simple-icons:hbo"
 					}
 				]
 			}
